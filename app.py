@@ -32,7 +32,7 @@ def callback():
     elif (userText == 'คนสร้างชื่อไรอ่ะ') :
         sendText(user,'คนสร้างชื่อ นายกริสนัย หอยสังข์')
     else (userText == '') :
-        sendText('อาเครๆ')
+        sendText(user,'อาเครๆ')
         
     return '',200
 
