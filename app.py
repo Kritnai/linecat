@@ -29,6 +29,8 @@ def callback():
         sendText(user,'ใช้ภาษาไทยผิดอะป่าว')
     elif (userText == 'ชื่อไรอ่ะ') :
         sendText(user,'ชื่อ Kritnai')
+    elif (userText == 'คนสร้างชื่ออะไร') :
+        sendText(user,'คนสร้างชื่อ นายกริสนัย หอยสังข์')
     else (userText == '') :
         sendText('อาเครๆ')
     return '',200
