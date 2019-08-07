@@ -33,6 +33,7 @@ def callback():
         sendText(user,'คนสร้างชื่อ นายกริสนัย หอยสังข์')
     else (userText == '') :
         sendText('อาเครๆ')
+        
     return '',200
 
 def sendText(user, text):
